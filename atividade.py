@@ -20,4 +20,6 @@ for n in nulist:
     print(f"numero: {n}")
 
     
-
+print ("\nexibindo numeros")
+for i, nu in enumerate(nulist):
+    print(f"{i+1} numero:{nu}")
